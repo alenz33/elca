@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="elca">
+    <file>arrow-circle-225.png</file>
+  </qresource>
+</RCC>

@@ -18,5 +18,10 @@ class PushThread(QThread):
             self.doneRatioChanged.emit(i)
             time.sleep(0.5)
 
+    def start(self, prio=QThread.InheritPriority):
+        self._shouldStop = False
+        QThread.start(self, prio)
+
     def quit(self):
         self._shouldStop = True
+        QThread.quit(self)

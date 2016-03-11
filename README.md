@@ -1,4 +1,4 @@
-# MyProject
+# elca
 Qt interface to [flacker].
 
 #### Authors
